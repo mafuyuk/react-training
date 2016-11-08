@@ -1,4 +1,11 @@
 # react-training
 
-- access
-file:///path/to/react-training/index.html
+- prepare
+```
+$ npm install
+```
+
+- start 
+```
+$ npm start
+```
