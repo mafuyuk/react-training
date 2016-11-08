@@ -7,5 +7,5 @@ $ npm install
 
 - start 
 ```
-$ npm start
+$ npm start -p 3000
 ```
