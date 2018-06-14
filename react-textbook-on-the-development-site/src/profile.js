@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Profile = (props) => {
-    const { name, age, love} = props.data;
+  const { name, age, love} = props.data;
   return (
     <dl>
         <dt>Name</dt><dd>{name}</dd>
