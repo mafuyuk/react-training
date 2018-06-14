@@ -1,13 +1,13 @@
 import React from "react";
 
-const Children = () => {
-    return <p>Hello World 2</p>;
+const Children = props => {
+    return <p>Hello World 2. name is {props.name}</p>;
 };
 
 const Hello = () => {
     return (
         <div>
-            <Children />
+            <Children name="taro" />
         </div>
     );
 };
