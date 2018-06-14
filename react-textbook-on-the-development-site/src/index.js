@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Hello from "./hello";
-import Hello2 from "./hello2";
-import Profile from "./profile";
-import List from "./list";
+import Hello from "./helloworld/hello";
+import Hello2 from "./helloworld/hello2";
+import Profile from "./props/profile";
+import List from "./props/list";
+import Children from "./props/children";
 
 import "./styles.css";
 
@@ -31,6 +32,7 @@ function Index() {
       <Profile data={taro} />
       <Profile data={hanako} />
       <List data={listData} />
+      <Children> Hey! props children </Children>
     </div>
   );
 }
