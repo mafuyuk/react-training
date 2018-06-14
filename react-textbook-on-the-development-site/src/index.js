@@ -6,6 +6,7 @@ import Profile from "./props/profile";
 import List from "./props/list";
 import Children from "./props/children";
 import Switch from "./state/switch";
+import StateProfile from "./state/profile";
 
 import "./styles.css";
 
@@ -49,6 +50,7 @@ function Index() {
       </Children>
 
       <Switch />
+      <StateProfile />
     </div>
   );
 }
