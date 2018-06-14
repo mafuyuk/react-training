@@ -7,6 +7,7 @@ import List from "./props/list";
 import Children from "./props/children";
 import Switch from "./state/switch";
 import StateProfile from "./state/profile";
+import Button from "./event/button";
 
 import "./styles.css";
 
@@ -51,6 +52,8 @@ function Index() {
 
       <Switch />
       <StateProfile />
+
+      <Button />
     </div>
   );
 }
