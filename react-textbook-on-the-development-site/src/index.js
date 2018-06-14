@@ -9,6 +9,7 @@ import Switch from "./state/switch";
 import StateProfile from "./state/profile";
 import Button from "./event/button";
 import EventSwitch from "./event/switch";
+import KeyList from "./key/list";
 
 import "./styles.css";
 
@@ -31,6 +32,11 @@ const satoshi = {
 };
 
 const listData = ["foo", "bar", "baz"];
+const keyListData = [
+  { id: 0, text: "foo"},
+  { id: 1, text: "bar"},
+  { id: 2, text: "baz"},
+];
 
 function Index() {
   return (
@@ -56,6 +62,8 @@ function Index() {
 
       <Button />
       <EventSwitch />
+
+      <KeyList data={keyListData}/>
     </div>
   );
 }
