@@ -5,6 +5,7 @@ import Hello2 from "./helloworld/hello2";
 import Profile from "./props/profile";
 import List from "./props/list";
 import Children from "./props/children";
+import Switch from "./state/switch";
 
 import "./styles.css";
 
@@ -46,6 +47,8 @@ function Index() {
       <Children>
         <Profile data={satoshi} />
       </Children>
+
+      <Switch />
     </div>
   );
 }
