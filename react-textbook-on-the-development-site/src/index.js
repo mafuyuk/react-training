@@ -20,6 +20,12 @@ const hanako = {
   love: "Cats"
 };
 
+const satoshi = {
+  name: "Satoshi",
+  age: 15,
+  love: "Coin"
+};
+
 const listData = ["foo", "bar", "baz"];
 
 function Index() {
@@ -27,12 +33,23 @@ function Index() {
     <div className="Index">
       <h1>Hello CodeSandbox</h1>
       <h2>Start editing to see some magic happen!</h2>
+
+      <!-- hello world  -->
       <Hello />
       <Hello2 />
+
+      <!-- props を使ってみる  -->
       <Profile data={taro} />
       <Profile data={hanako} />
+
+      <!-- props を使ってループを回す  -->
       <List data={listData} />
+
+      <!-- props.children を使ってみる  -->
       <Children> Hey! props children </Children>
+      <Children>
+        <Profile data={satoshi} />
+      </Children>
     </div>
   );
 }
