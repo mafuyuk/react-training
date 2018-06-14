@@ -3,21 +3,23 @@ import ReactDOM from "react-dom";
 import Hello from "./hello";
 import Hello2 from "./hello2";
 import Profile from "./profile";
+import List from "./list";
 
 import "./styles.css";
 
 const taro = {
-  name: 'Taro',
+  name: "Taro",
   age: 20,
-  love: 'Game',
+  love: "Game"
 };
 
 const hanako = {
-  name: 'Hanako',
+  name: "Hanako",
   age: 10,
-  love: 'Cats',
+  love: "Cats"
 };
 
+const listData = ["foo", "bar", "baz"];
 
 function Index() {
   return (
@@ -26,8 +28,9 @@ function Index() {
       <h2>Start editing to see some magic happen!</h2>
       <Hello />
       <Hello2 />
-      <Profile data={taro}/>
-      <Profile data={hanako}/>
+      <Profile data={taro} />
+      <Profile data={hanako} />
+      <List data={listData} />
     </div>
   );
 }
