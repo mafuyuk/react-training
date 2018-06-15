@@ -10,6 +10,7 @@ import StateProfile from "./state/profile";
 import Button from "./event/button";
 import EventSwitch from "./event/switch";
 import KeyList from "./key/list";
+import HmrIndex from "./hmr/index";
 
 import "./styles.css";
 
@@ -64,6 +65,8 @@ const Index = () => {
       <EventSwitch />
 
       <KeyList data={keyListData}/>
+
+      <HmrIndex />
     </Fragment>
   );
 };
