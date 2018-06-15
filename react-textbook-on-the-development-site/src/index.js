@@ -38,7 +38,7 @@ const keyListData = [
   { id: 2, text: "baz"},
 ];
 
-function Index() {
+const Index = () => {
   return (
     <Fragment>
       <h1>Hello CodeSandbox</h1>
@@ -66,7 +66,7 @@ function Index() {
       <KeyList data={keyListData}/>
     </Fragment>
   );
-}
+};
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<Index />, rootElement);
