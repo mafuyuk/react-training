@@ -19,7 +19,7 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <button onclick={this.handleChange}>Switch Flag</button>
+        <button onClick={this.handleChange}>Switch Flag</button>
         {`${this.state.flag}`}
         <Hello />
       </Fragment>
