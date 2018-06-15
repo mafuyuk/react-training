@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
 import Hello from "./helloworld/hello";
 import Hello2 from "./helloworld/hello2";
@@ -40,7 +40,7 @@ const keyListData = [
 
 function Index() {
   return (
-    <div className="Index">
+    <Fragment>
       <h1>Hello CodeSandbox</h1>
       <h2>Start editing to see some magic happen!</h2>
 
@@ -64,7 +64,7 @@ function Index() {
       <EventSwitch />
 
       <KeyList data={keyListData}/>
-    </div>
+    </Fragment>
   );
 }
 
