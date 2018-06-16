@@ -11,6 +11,7 @@ import Button from "./event/button";
 import EventSwitch from "./event/switch";
 import KeyList from "./key/list";
 import HmrIndex from "./hmr/index";
+import UserCard from "./component/user-card";
 
 import "./styles.css";
 
@@ -67,6 +68,8 @@ const Index = () => {
       <KeyList data={keyListData}/>
 
       <HmrIndex />
+
+      <UserCard name={"haruka"} age={10}/>
     </Fragment>
   );
 };
