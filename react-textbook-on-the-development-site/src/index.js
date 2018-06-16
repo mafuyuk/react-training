@@ -12,6 +12,7 @@ import EventSwitch from "./event/switch";
 import KeyList from "./key/list";
 import HmrIndex from "./hmr/index";
 import UserCard from "./component/user-card";
+import BannerLink from "./component/banner-link";
 
 import "./styles.css";
 
@@ -70,6 +71,7 @@ const Index = () => {
       <HmrIndex />
 
       <UserCard name={"haruka"} age={10}/>
+      <BannerLink />
     </Fragment>
   );
 };
