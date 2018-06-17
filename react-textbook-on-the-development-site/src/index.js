@@ -14,6 +14,7 @@ import HmrIndex from "./hmr/index";
 import BannerLink from "./component/banner-link";
 import Wrapper from './component/wrapper';
 import ItemContainer from './container/itemContainer';
+import AppContainer from './container/appContainer';
 
 import "./styles.css";
 
@@ -75,6 +76,7 @@ const Index = () => {
       <Wrapper />
 
       <ItemContainer />
+      <AppContainer />
     </Fragment>
   );
 };
