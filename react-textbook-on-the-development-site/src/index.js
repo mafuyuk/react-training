@@ -15,6 +15,7 @@ import BannerLink from "./component/banner-link";
 import Wrapper from './component/wrapper';
 import ItemContainer from './container/itemContainer';
 import AppContainer from './container/appContainer';
+import InformationArea from './localstate/informationArea'
 
 import "./styles.css";
 
@@ -77,6 +78,8 @@ const Index = () => {
 
       <ItemContainer />
       <AppContainer />
+
+      <InformationArea tel={'090-0101-0101'} mail={'example@a.a'} organization={'警察'} account={'アカウント情報'}/>
     </Fragment>
   );
 };
