@@ -19,6 +19,7 @@ import InformationArea from './localstate/informationArea';
 import ButtonComponent from './uilibrary/buttonComponent';
 import DropdownComponent from './uilibrary/dropDownComponent';
 import FooComponent from './uilibrary/fooComponent';
+import SwitchErrorAlert from './uilibrary/switchErrorAlert';
 
 import "./styles.css";
 
@@ -88,6 +89,8 @@ const Index = () => {
 
       <DropdownComponent />
       <FooComponent />
+
+      <SwitchErrorAlert />
     </Fragment>
   );
 };
