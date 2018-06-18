@@ -8,7 +8,8 @@ const Html = (props) => {
       <title>App</title>
     </head>
     <body>
-    <div id="root">{props.children}</div>
+      <div id="root">{props.children}</div>
+      <script type="text/javascript" src="bundle.js"/>
     </body>
     </html>
   )

@@ -12,10 +12,13 @@ module.exports = {
       {
         test: /\.js$/,
         use: {
-          presets: [
-            ['env', { modules: false }],
-            'react'
-          ]
+          loader: 'babel-loader',
+          options: {
+            presets: [
+              ['env', { modules: false }],
+              'react'
+            ]
+          },
         },
         exclude: /node_modules/
       }

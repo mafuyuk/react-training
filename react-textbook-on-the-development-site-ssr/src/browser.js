@@ -1,8 +1,8 @@
 import React from 'react';
-import { hydra } from 'react-dom';
+import { hydrate } from 'react-dom';
 import App from './app';
 
-hydra(
+hydrate(
   <App/>,
   document.querySelector('#root')
 );
