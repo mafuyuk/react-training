@@ -9,7 +9,7 @@ class AppContainer extends Component {
     return (
       <Fragment>
         <button
-          onClick={this.props.addTodo('foo')}
+          onClick={() => this.props.addTodo('foo')}
         >Add ToDo</button>
         <TodoList list={this.props.state.todos.list} />
       </Fragment>
